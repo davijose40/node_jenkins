@@ -1,0 +1,22 @@
+{
+  "name": "node_example",
+  "version": "1.0.0",
+  "description": "a test package for the deploy workflow",
+  "main": "server.js",
+  "dependencies": {
+    "pm2": "^4.1.2"
+  },
+  "scripts": {
+    "start": "pm2 startOrRestart ecosystem.config.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davijose40/node_jenkins.git"
+  },
+  "author": "https://github.com/loeken/node_example",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davijose40/node_jenkins/issues"
+  },
+  "homepage": "https://github.com/davijose40/node_jenkins#readme"
+}
